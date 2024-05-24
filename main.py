@@ -1,0 +1,10 @@
+from Car import Car
+my_car=Car()
+my_car.set_color("blue")
+print("The color of my car is",my_car.get_color())
+my_car.set_lp("C7Y829")
+print("the name of my car's lp is",my_car.get_license_plate())
+my_car.set_engine(True)
+print("Is my engine on? :",my_car.is_engine())
+print(Car.OCTANE_LEVEL)
+(my_car.honk(5))
